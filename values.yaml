@@ -5,9 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
+  repository: docker.io/kostiscodefresh/gitops-simple-app:v1.0
   tag: 0.1
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   type: ClusterIP
